@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+  .text{
+    position: absolute;
+    color:#fff;
+    line-height: 1.5;
+    text-align: center;
+  } 
+
+.overlay{
+    position: absolute;
+    height:100vh;
+    width:100vw;
+    background:#1b8012 ;
+    opacity:0.2;
+}
+.text button{
+    background:green;
+    border-radius: 40px;
+    color:#fff;
+    font-size: 1.5em;
+    padding:.3em 1.2em;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.text h1{
+    font-size: 3.5em;
+    font-family: verdana;
+}
+.text h5{
+    font-size: 1.5em;
+    color:chartreuse;
+    letter-spacing: 5px;
+}
+ 
